@@ -1,14 +1,7 @@
 #!/bin/bash
 
-# read -p 'enter your name:' name
-# echo -e "entered name is \e[33m $name \e[0m"
-
-#functions : used to use set of commands
-
-sample() {
-    echo "I am Sample Function"
+stat() {
+    echo "Number of opened :"
+    echo "today's date :"
+    echo "load avg on the system in last one minute :"
 }
- 
-sample
-sample
-sample 
