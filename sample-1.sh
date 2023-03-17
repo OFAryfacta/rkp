@@ -2,4 +2,4 @@
 
 echo "hello world"
 
-echo "line1\nline2\nline3"
+echo  line1\nline2\nline3
