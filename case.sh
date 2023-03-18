@@ -8,7 +8,7 @@
 ACTION=$1
 
 case $ACTION in
-    strart)
+    start)
         echo "XYZ Service is Starting"  
        ;;
     stop)
