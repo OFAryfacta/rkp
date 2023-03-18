@@ -5,6 +5,7 @@
 #    opt)2 commmands2 ;;
 # esac
 
+ACTION=$1
 
 case $ACTION in
     strart)
