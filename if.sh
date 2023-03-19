@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 a=$1
 
 if [ "$a" == "xyz" ]; then
