@@ -1,7 +1,7 @@
 #!/bin/bash
  
 echo "devOps project oriented training"
-<<COMMENT
+<<comment
 a=1
 ECHO $a
-COMMENT
+comment
