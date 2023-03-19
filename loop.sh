@@ -4,8 +4,8 @@
 #     echo Value is $list
 # done     
 
-val=0
-while [ $val -lt 10 ]; do
+val=10
+while [ $val -gt 0 ]; do
    echo "I = $val"
-   val=$(($val+1))
+   val=$(($val-1))
 done   
