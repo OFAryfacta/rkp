@@ -1,3 +1,3 @@
-!/bin/bash
+#!/bin/bash
 
-echo "i am mongoDb"#
+echo "i am mongoDb"
