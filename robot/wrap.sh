@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "i am wrap"
+bash robot/$1.sh
