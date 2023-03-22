@@ -42,6 +42,6 @@ echo -n "Inecting the schema : "
 cd mongodb-main
 mongo < catalogue.js &>>$LOGFILE
 mongo < user.js      &>>$LOGFILE
-stat() $?
+stat $?
 
 
