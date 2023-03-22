@@ -13,3 +13,8 @@ fi
 
 echo "starting Nginx :"
 systemctl start nginx &>> /tmp/frontend.log 
+if [ $? -eq 0 ]; then
+    echo "Success"
+else 
+    echo "Failure"
+fi 
