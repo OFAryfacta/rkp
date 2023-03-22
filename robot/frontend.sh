@@ -20,7 +20,7 @@ systemctl start nginx   &>> /tmp/frontend.log
 stat $?
 
 echo -n "Downloading the $COMPONENT :"
-curl -s -l -o /tmp/$COMPONENT.ZIP "https://github.com/stans-robot-project/$COMPONENT/archive/main.zip"
+curl -s -L -o /tmp/$COMPONENT.ZIP "https://github.com/stans-robot-project/$COMPONENT/archive/main.zip"
 stat $?
         
 
@@ -38,3 +38,9 @@ mv frontend-main/* .  &>> /tmp/frontend.log
 mv static/* .         &>> /tmp/frontend.log
 rm -rf frontend-main README,md  &>> /tmp/frontend.log 
 mv localhost.conf /etc/nginx/default.d/roboshop.conf &>> /tmp/frontend.log
+stat $?
+
+echo -n "Restarting Nginx : "
+systemctl enable nginx   &>> /tmp/frontend.log
+systemctl restart nginx  &>> /tmp/frontend.log
+stat $?
