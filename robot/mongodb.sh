@@ -38,7 +38,7 @@ cd /tmp
 unzip mongodb.zip &>> $LOGFILE
 stat $?
 
-echo -n "Inecting the schema : "
+echo -n "Injecting the schema : "
 cd mongodb-main
 mongo < catalogue.js &>>$LOGFILE
 mongo < user.js      &>>$LOGFILE
