@@ -22,7 +22,7 @@ curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/stans
 stat $?
 
 echo -n "Installing $COMPONENT : "
-yum install mongodb-org -y  &>> $LOGFILE
+yum install -y mongodb-org  &>> $LOGFILE
 
 echo -n "Starting $COMPONENT : "
 systemctl enable mongodb
