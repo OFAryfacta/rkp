@@ -12,7 +12,7 @@ else
 fi 
 }
 
-echo -n  "\e[32m ____________$COMPONENT Configuration Starting ___________\3[0m"
+echo -e  "\e[32m ____________$COMPONENT Configuration Starting ___________\3[0m"
 
 echo -n "installing nginx :"
 yum install nginx -y    &>> /tmp/frontend.log
@@ -50,4 +50,4 @@ systemctl restart nginx  &>> /tmp/frontend.log
 stat $?
 
 
-echo -n  "\e[32m ____________$COMPONENT Configuration Completed ___________\3[0m"
+echo -e  "\e[32m ____________$COMPONENT Configuration Completed ___________\3[0m"
