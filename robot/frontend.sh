@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e ""
+
 COMPONENT=frontend
 
 stat() {
@@ -30,7 +32,7 @@ rm -rf * &>> /tmp/frontend.log
 stat $?
 
 echo -n "Extracting $COMPONENT : "
-unzip /tmp/COMPONENT.zip &>> /tmp/frontend.log
+unzip /tmp/$COMPONENT.zip &>> /tmp/frontend.log
 stat $?
 
 echo -n "Copying $COMPONENT : "
