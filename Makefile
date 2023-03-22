@@ -1,8 +1,8 @@
 frontend:
-    bash robot/frontend.sh
+	bash robot/frontend.sh
 
 mongodb:
-    bash robot/mongodb.sh
+	bash robot/mongodb.sh
 
 cart:
-    bash robot/cart.sh
+	bash robot/cart.sh
