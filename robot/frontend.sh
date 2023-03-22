@@ -1,6 +1,6 @@
 #!/bin/bash
 
 
-yum install nginx -y    
-systemct1 enable nginx  
-systemct1 start nginx  
+yum install nginx -y    &>> /tmp/frontend.log
+systemct1 enable nginx  &>> /tmp/frontend.log
+systemct1 start nginx   &>> /tmp/frontend.log
