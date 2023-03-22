@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cCOMPONENT=frontend
+COMPONENT=frontend
 
 stat() {
     if [ $1 -eq 0 ]; then
