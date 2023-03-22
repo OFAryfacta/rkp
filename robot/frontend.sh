@@ -2,5 +2,5 @@
 
 
 yum install nginx -y    &>> /tmp/frontend.log
-systemct1 enable nginx  &>> /tmp/frontend.log
-systemct1 start nginx   &>> /tmp/frontend.log
+systemctl enable nginx  &>> /tmp/frontend.log
+systemctl start nginx   &>> /tmp/frontend.log
