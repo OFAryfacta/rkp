@@ -4,7 +4,7 @@ set -e ""
 
 COMPONENT=frontend
 
-soure common.sh
+source common.sh
 
 echo -e  "\e[32m ____________$COMPONENT Configuration Starting ___________\e[0m"
 
