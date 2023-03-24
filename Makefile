@@ -11,5 +11,6 @@ mongodb:
 cart:
 	bash robot/cart.sh
 
-	
+catalogue:
+    bash robot/catalogue.sh	
 
