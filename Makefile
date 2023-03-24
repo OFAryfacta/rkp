@@ -6,3 +6,6 @@ mongodb:
 
 cart:
 	bash robot/cart.sh
+
+monggodb: 
+    bash robot/monggodb.sh	
