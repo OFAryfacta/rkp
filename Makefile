@@ -1,5 +1,5 @@
 frontend:
-	bash component/frontend.sh
+	bash robot/component/frontend.sh
 
 mongodb:
 	bash component/mongodb.sh
