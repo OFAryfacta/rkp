@@ -3,6 +3,3 @@ frontend:
 
 mongodb:
 	bash robot/component/mongodb.sh
-
-catalogue:
-    bash component/catalogue.sh
