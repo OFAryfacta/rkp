@@ -5,4 +5,4 @@ mongodb:
 	bash robot/component/mongodb.sh
 
 catalogue:
-    bash robot/component/catalogue.sh	
+	bash robot/component/catalogue.sh	
