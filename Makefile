@@ -7,4 +7,6 @@ mongodb:
 cart:
 	bash robot/component/cart.sh
 
+catalogue:
+    bash robot/component/catalogue.sh
 
