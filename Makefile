@@ -2,9 +2,9 @@ frontend:
 	bash robot/component/frontend.sh
 
 mongodb:
-	bash component/mongodb.sh
+	bash robot/component/mongodb.sh
 
 cart:
-	bash component/cart.sh
+	bash robot/component/cart.sh
 
 
