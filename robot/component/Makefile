@@ -1,9 +1,8 @@
 frontend:
+	bash component/frontend.sh
 
-bash component/frontend.sh
 mongodb:
-
-bash component/mongodb.sh
+	bash component/mongodb.sh
+	
 catalogue:
-
-bash component/catalogue.sh
+	bash component/catalogue.sh
