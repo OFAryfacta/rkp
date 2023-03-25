@@ -1,10 +1,10 @@
 frontend:
-	bash robot/frontend.sh
+	bash component/frontend.sh
 
 mongodb:
-	bash robot/mongodb.sh
+	bash component/mongodb.sh
 
 cart:
-	bash robot/cart.sh
+	bash component/cart.sh
 
 
