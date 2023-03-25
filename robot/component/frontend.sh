@@ -4,7 +4,7 @@ set -e ""
 
 COMPONENT=frontend
 
-source robot/component/common.sh
+source component/common.sh
 
 echo -e  "\e[32m ____________$COMPONENT Configuration Starting ___________\e[0m"
 

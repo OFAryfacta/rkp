@@ -3,7 +3,7 @@ set -e
 
 COMPONENT==catalogue
 
-source robot/component/common.sh
+source component/common.sh
 
 echo -n "Configuring NodeJS Repo : "
 curl --silent --location https://rpm.nodesource.com/setup_16.x | sudo bash - &>> $LOGFILE
