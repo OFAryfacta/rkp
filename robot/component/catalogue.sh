@@ -25,4 +25,5 @@ cd /home/$APPUSER
 unzip -o /tmp/$COMPONENT.zip &>> "${LOGFILE}"
 
 echo -n "changing the ownership to $APPUSER "
+mv /home/$APPUSER/$COMPONENT-main /home/$APPUSER/$COMPONENT
 chown $APPUSER:$APPUSER /home/$APPUSER/$COMPONENT
