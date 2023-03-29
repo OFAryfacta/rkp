@@ -5,6 +5,7 @@ source component/common.sh
 
 echo -n "Configuring NodeJS Repo : "
 curl --silent --location https://rpm.nodesource.com/setup_16.x | sudo bash - &>> "${LOGFILE}"stat $?
+stat $?
 
 echo -n "Installing nodeJS : "
 yum install nodejs -y &>> "${LOGFILE}"
