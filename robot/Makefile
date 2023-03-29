@@ -11,4 +11,4 @@ redis:
 	bash component/redis.sh
 
 user:
-    bash component/user.sh	
+	bash component/user.sh	
