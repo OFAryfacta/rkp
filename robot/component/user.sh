@@ -7,7 +7,7 @@ echo -n "Configuring NodeJS Repo : "
 curl -sL https://rpm.nodesource.com/setup_16.x | bash  &>> "${LOGFILE}"
 stat $?
 
-eho -n "Installing nodeJS : "
+echo -n "Installing nodeJS : "
 yum install nodejs -y &>> "${LOGFILE}"
 stat $?
 
