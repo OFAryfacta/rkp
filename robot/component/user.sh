@@ -3,7 +3,7 @@
 COMPONENT=user
 source component/common.sh
 
-echo -n "Configuring NodeJS Repo : "
+echo -n "Configuring NodeJS: "
 curl -sL https://rpm.nodesource.com/setup_16.x | bash  &>> "${LOGFILE}"
 stat $?
 
