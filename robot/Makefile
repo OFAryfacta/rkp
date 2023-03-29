@@ -9,3 +9,6 @@ catalogue:
 
 redis:
 	bash component/redis.sh
+
+user:
+    bash component/user.sh	
