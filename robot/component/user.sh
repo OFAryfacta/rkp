@@ -4,7 +4,7 @@ COMPONENT=user
 source component/common.sh
 
 echo -n "Configuring NodeJS Repo : "
-curl --silent --location https://rpm.nodesource.com/setup_16.x | sudo bash - &>> "${LOGFILE}"
+curl -sL https://rpm.nodesource.com/setup_16.x | bash &>> "${LOGFILE}"
 stat $?
 
 eho -n "Installing nodeJS : "
