@@ -8,7 +8,7 @@ echo -n "Configuring the $COMPONENT repo  : "
 curl -s -L -o /etc/yum.repos.d/$COMPONENT.repo https://raw.githubusercontent.com/stans-robot-project/$COMPONENT/main/$COMPONENT.repo  &>> "${LOFGILE}"
 stat $? 
 
-echo -n "Installing $COMPONENT: "
+echo -n "Installing $COMPONENT : "
 yum install mysql-community-server -y   &>> "${LOFGILE}"
 stat $? 
 
