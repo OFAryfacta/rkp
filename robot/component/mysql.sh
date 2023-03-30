@@ -2,7 +2,7 @@
 
 COMPONENT=mysql
 
-source components/common.sh
+source component/common.sh
 
 echo -n "Configuring the $COMPONENT repo : "
 curl -s -L -o /etc/yum.repo.d/$COMPONENT.repo https://raw.githubusercontent.com/stans-robot-project/$COMPONENT/main/$COMPONENT.repo &>> "${LOGFILE}"
